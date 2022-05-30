@@ -17,6 +17,7 @@ body{
 /*           CONTENT INDEX                      */
 
 .imgText{
+    margin-top: 2%;
     display: flex;
     justify-content: space-between;
 }
@@ -246,8 +247,6 @@ article{
 /*         GRID      */
 
 main{
-    margin-left: 2%;
-    margin-top: 2%;
     grid-area: main;
 }
 
