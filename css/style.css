@@ -47,8 +47,8 @@ header{
     margin: 0;
     box-sizing: border-box;
 }
-section{
-    grid-area: section;
+main{
+    grid-area: main;
 }
 
 footer{
@@ -125,7 +125,7 @@ h2{
     flex-wrap: wrap;
 
 }
-.card{
+.card-playerd{
     height:400px;
     background-image: url(../Imagenes/max.png);
     background-size: contain;
