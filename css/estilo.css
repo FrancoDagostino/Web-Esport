@@ -427,7 +427,7 @@ textarea {
 @media only screen and (max-width: 600px) {
   .imgCard {
     justify-content: center; }
-  .card {
+  .card-playerd {
     width: 250px;
     height: 250px; }
   .menu {
@@ -481,6 +481,14 @@ textarea {
   .grid-team {
     width: 100px;
     height: 100px; }
+  .mouseover-body:hover {
+    background-color: #3c1276;
+    color: white;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1); }
   .gridVS {
     width: 50px;
     height: 100px; }
