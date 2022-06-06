@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Koulen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Josefin Sans', sans-serif; }
+
+.grid {
+  display: grid;
+  grid-template-areas: "header header header " "main main main" "footer footer footer ";
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto); }
+
+header {
+  grid-area: header;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+  header .nav {
+    padding: 0px;
+    margin: 0px; }
+  header .menu {
+    background-color: #3c1276;
+    list-style-type: none;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    padding: 0px;
+    margin: 0px; }
+    header .menu ul {
+      display: flex;
+      justify-content: space-around;
+      grid-column: 1/3;
+      margin: 0px;
+      padding: 0px; }
+      header .menu ul li {
+        list-style: none; }
+        header .menu ul li:hover {
+          background-color: #3c1276; }
+        header .menu ul li a {
+          text-decoration: none;
+          display: inline-block;
+          color: white;
+          font-size: large;
+          font-size: 1.4rem;
+          margin-left: 20%; }
+          header .menu ul li a:hover {
+            color: grey; }
+    header .menu .icon {
+      margin-left: 20%;
+      grid-column: 4/4; }
+
+main {
+  grid-area: main; }
+  main .imgText {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between; }
+    main .imgText p {
+      margin-right: 10%;
+      margin-top: 8%;
+      font-family: verdana, arial, helvetica;
+      font-size: 1.5rem;
+      word-spacing: 0.25em; }
+
+main h2 {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 2rem; }
+
+main .imgCard {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  flex-wrap: wrap; }
+  main .imgCard .statics {
+    text-decoration: none; }
+    main .imgCard .statics article {
+      border-bottom: 1px ridge  grey;
+      border-left: 1px ridge #cfcaca;
+      border-top: 1px ridge #cfcaca;
+      box-shadow: 5px 5px 10px #3c1276;
+      border-radius: 4%;
+      margin-top: 2%;
+      margin-left: 2%; }
+    main .imgCard .statics .mouseover-body:hover {
+      background-color: #3c1276;
+      color: white;
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      transform: scale(1.1); }
+      main .imgCard .statics .mouseover-body:hover .card-body {
+        padding: 20px; }
+        main .imgCard .statics .mouseover-body:hover .card-body .card-playerd {
+          height: 400px;
+          background-image: url(../Imagenes/max.png);
+          background-size: contain;
+          background-repeat: no-repeat;
+          width: 400px;
+          background-position-x: center;
+          margin-top: 20px; }
+        main .imgCard .statics .mouseover-body:hover .card-body .cardDgt {
+          background-image: url(../Imagenes/dgt.png); }
+        main .imgCard .statics .mouseover-body:hover .card-body .cardLuken {
+          background-image: url(../Imagenes/luken.jpg); }
+        main .imgCard .statics .mouseover-body:hover .card-body .cardRox {
+          background-image: url(../Imagenes/rox.jpg); }
+        main .imgCard .statics .mouseover-body:hover .card-body .cardDavid {
+          background-image: url(../Imagenes/david.jpg); }
+        main .imgCard .statics .mouseover-body:hover .card-body .card-subtitle {
+          font-size: 1.9rem;
+          font-weight: bold;
+          margin-top: 1.5%;
+          text-align: center;
+          font-family: 'Indie Flower', cursive;
+          color: black; }
+        main .imgCard .statics .mouseover-body:hover .card-body .card-icon {
+          font-size: 22px;
+          text-align: center;
+          margin-top: 5%;
+          color: #3c1276;
+          margin-right: 5%; }
+          main .imgCard .statics .mouseover-body:hover .card-body .card-icon a {
+            margin-left: 2rem;
+            color: #3c1276; }
+            main .imgCard .statics .mouseover-body:hover .card-body .card-icon a:hover {
+              color: white; }
+
+footer {
+  grid-area: footer; }
+  footer .content-footer {
+    background-color: #110e14;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between; }
+    footer .content-footer .menu-footer {
+      margin: 0px;
+      margin-left: 10%;
+      padding-top: 3%;
+      padding-bottom: 1%; }
+      footer .content-footer .menu-footer a {
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+        padding: 0.5rem;
+        font-size: x-large; }
+        footer .content-footer .menu-footer a:hover {
+          color: grey; }
+    footer .content-footer .redesFooter {
+      padding-top: 3%;
+      margin-right: 10%; }
+      footer .content-footer .redesFooter a {
+        text-decoration: none;
+        display: inline-block;
+        color: #f8e8e8;
+        padding: 0.5rem;
+        font-size: large; }
+        footer .content-footer .redesFooter a:hover {
+          color: grey; }
