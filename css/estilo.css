@@ -1,3 +1,5 @@
+/* abstracts */
+/* base */
 @import "https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Koulen&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap";
 * {
@@ -41,6 +43,13 @@ main {
 footer {
   grid-area: footer; }
 
+h2 {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 2rem; }
+
+/* components */
 nav {
   padding: 0px;
   margin: 0px; }
@@ -74,12 +83,6 @@ nav {
 .icon {
   margin-left: 20%;
   grid-column: 4/4; }
-
-h2 {
-  text-align: center;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  font-size: 2rem; }
 
 .imgCard {
   display: flex;
@@ -119,11 +122,9 @@ h2 {
     color: #3c1276; }
 
 article {
-  border-bottom: 1px ridge grey;
-  border-left: 1px ridge #cfcaca;
-  border-top: 1px ridge #cfcaca;
-  box-shadow: 5px 5px 10px #3c1276;
+  border: 1px, ridge, #3c1276;
   border-radius: 4%;
+  box-shadow: 5px 5px 10px #3c1276;
   margin-top: 2%;
   margin-left: 2%; }
 
@@ -261,6 +262,9 @@ h3 {
   font-family: 'calibri';
   color: white; }
 
+textarea {
+  resize: none; }
+
 .player-static {
   display: flex;
   margin-top: 5%;
@@ -284,9 +288,6 @@ h3 {
   margin-top: 17%;
   font-size: 1.7rem; }
 
-textarea {
-  resize: none; }
-
 .body-iframes {
   display: flex;
   flex-wrap: wrap;
@@ -300,6 +301,7 @@ textarea {
   border: 5px solid #3c1276;
   box-shadow: 2px 2px 20px #3c1276; }
 
+/* media-query */
 @media only screen and (max-width: 1400px) {
   .menu ul {
     display: flex;
