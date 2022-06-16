@@ -1,7 +1,16 @@
 /* abstracts */
-/* base */
 @import "https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Koulen&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap";
+.cardPlayer, .card-playerd {
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 400px;
+  background-position-x: center;
+  margin-top: 20px;
+  background-image: url(../Imagenes/max.png); }
+
+/* base */
 * {
   padding: 0;
   margin: 0;
@@ -89,15 +98,6 @@ nav {
   justify-content: center;
   margin-top: 2%;
   flex-wrap: wrap; }
-
-.card-playerd {
-  height: 400px;
-  background-image: url(../Imagenes/max.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 400px;
-  background-position-x: center;
-  margin-top: 20px; }
 
 .cardDgt {
   background-image: url(../Imagenes/dgt.png); }

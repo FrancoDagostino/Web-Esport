@@ -5,13 +5,8 @@
 	flex-wrap: wrap;
 }
 .card-playerd {
-	height: 400px;
-	@include imagen-fondo();
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 400px;
-	background-position-x: center;
-	margin-top: 20px;
+	@extend .cardPlayer;
+	
 }
 .cardDgt {
 	@include imagen-fondo(url(../Imagenes/dgt.png));
