@@ -116,7 +116,7 @@ nav {
   text-align: center;
   margin-top: 5%;
   color: #3c1276;
-  margin-right: 5%; }
+  margin-right: 18%; }
   .card-icon a {
     margin-left: 2rem;
     color: #3c1276; }
@@ -465,7 +465,9 @@ textarea {
     width: 450px; }
   .formContact {
     width: 500px;
-    padding: 15px; } }
+    padding: 15px; }
+  .player-static {
+    width: 400px; } }
 
 @media only screen and (max-width: 480px) {
   .grid-date {
@@ -506,7 +508,12 @@ textarea {
     width: 400px;
     padding: 15px; }
   .player-static {
-    width: 400px; }
+    width: 300px;
+    height: 220px; }
+    .player-static label {
+      font-size: 1.2rem; }
+    .player-static strong {
+      font-size: 1.2rem; }
   .imgText p {
     font-size: 0.6rem; }
   .imgText img {
