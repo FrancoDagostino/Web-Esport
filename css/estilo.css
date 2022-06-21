@@ -46,17 +46,13 @@ main {
   grid-area: main;
   grid-area: main; }
   main h1 {
+    text-align: center;
+    margin-top: 2%;
     margin-bottom: 2%;
-    margin-top: 2%; }
+    font-size: 2rem; }
 
 footer {
   grid-area: footer; }
-
-h2 {
-  text-align: center;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  font-size: 2rem; }
 
 /* components */
 nav {
