@@ -45,6 +45,7 @@
 .statics {
 	text-decoration: none;
 }
+
 .mouseover-body {
 	@include borders($mainColor,1px,4%);
 	box-shadow: 5px 5px 10px $mainColor;

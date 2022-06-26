@@ -24,3 +24,12 @@
 		font-size: 1.7rem;
 	}
 }
+.player-content{
+	@include borders($mainColor,1px,4%);
+	box-shadow: 5px 5px 10px $mainColor;
+	margin-top: 2%;
+	margin-left: 2%;
+	.card-icon{
+		margin-right: 9%;
+	}
+}

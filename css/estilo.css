@@ -283,6 +283,15 @@ textarea {
   margin-top: 17%;
   font-size: 1.7rem; }
 
+.player-content {
+  border: 1px, ridge, #3c1276;
+  border-radius: 4%;
+  box-shadow: 5px 5px 10px #3c1276;
+  margin-top: 2%;
+  margin-left: 2%; }
+  .player-content .card-icon {
+    margin-right: 9%; }
+
 .body-iframes {
   display: flex;
   flex-wrap: wrap;
